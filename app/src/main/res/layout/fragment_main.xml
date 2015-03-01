@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:src="@drawable/sample_frame"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:id="@+id/main_frame"/>
+
+    <SeekBar
+       android:layout_alignBottom="@+id/main_frame"
+       android:layout_alignLeft="@+id/main_frame"
+       android:layout_alignRight="@+id/main_frame"
+       android:layout="@+id/main_frame"
+       android:id="@+id/seek_bar"
+       android:paddingLeft="50dp"
+       android:paddingRight="50dp"
+       android:layout_width="match_parent"
+       android:layout_gravity="bottom|center_horizontal"
+       android:layout_height="wrap_content"/>
+
+</RelativeLayout>
